@@ -6,7 +6,7 @@ Freshworks data store- Backend assignment
 5.	 POST method(http:localhost:5000/create)
 6.	GET method(http:localhost:5000/read/key) eg:key=key1(string)
 7.	GET method(http:localhost:5000/delete/key)
-8. you can set property called time to leave for a key and write into a json file and this property is an optional. If ttl(in seconds) is given then the key will not be accessed for further read or delete operations after that time duration reached .
+8. you can set property called time-to-live for a key and write into a json file and this property is an optional. If ttl(in seconds) is given then the key will not be accessed for further read or delete operations after that time duration reached .
 It should be post in this way :
 Use postman and pass the key value pair in body.
 http:localhost:5000/create
